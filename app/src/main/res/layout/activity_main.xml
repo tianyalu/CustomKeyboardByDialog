@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:inputType="number"
+            android:hint="正常键盘输入"
+            android:textSize="15sp"/>
+
+        <com.sty.learn.keyboard.dialog.LPTextField
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:hint="自定义数字键盘输入"
+            android:inputType="number"
+            android:textSize="24sp"/>
+
+        <com.sty.learn.keyboard.dialog.LPTextField
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:hint="自定义字母标准键盘输入"
+            android:inputType="text"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+</RelativeLayout>
